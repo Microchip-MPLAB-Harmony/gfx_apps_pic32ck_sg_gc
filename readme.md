@@ -1,40 +1,54 @@
-﻿![Microchip logo](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_logo.png)
-![Harmony logo small](https://raw.githubusercontent.com/wiki/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/images/microchip_mplab_harmony_logo_small.png)
+﻿---
+title: Harmony 3 Graphics PIC32CK SG GC Applications Package
+nav_order: 1
+---
 
-# MPLAB® Harmony 3 replaceme
+# ![MPLAB® Harmony Graphics Suite](./images/mhgs.png) MPLAB® Harmony 3 Graphics Application Examples for PIC32CK SG GC Family
 
-MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices.  Refer to the following links for more information.
+MPLAB® Harmony Graphics Suite  is an extension of the MPLAB® ecosystem for creating
+embedded graphics firmware solutions for Microchip 32-bit SAM and PIC microcontroller
+and microprocessor devices.  Refer to the following links for more information.
+ - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit)
+ - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus)
+ - [Microchip MPLAB® X IDE](https://www.microchip.com/mplab/mplab-x-ide)
+ - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
+ - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
+ - [MPLAB® Discover](https://mplab-discover.microchip.com/v1/itemtype/com.microchip.ide.project?s0=Legato)
 
-- [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit)
-- [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus)
-- [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide)
-- [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
-- [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
-
-This repository contains the MPLAB® Harmony 3 replaceme solutions and example applications. Quickly incorporate connectivity to your designs with replaceme ICs, modules, software and development kits that make connecting effortless for your customers. Our comprehensive replaceme portfolio has the technology to meet your range, data rate, interoperability, frequency and topology needs. Refer to the following links for release notes, training materials, and interface reference information.
-
-- [Release Notes](./release_notes.md)
-- [MPLAB® Harmony License](mplab_harmony_license.md)
-- [MPLAB® Harmony 3 replaceme Wiki](https://github.com/Microchip-MPLAB-Harmony/replaceme/wiki)
-- [MPLAB® Harmony 3 replaceme API Help](https://microchip-mplab-harmony.github.io/replaceme)
+This repository contains the MPLAB® Harmony 3 Graphics application examples for PIC32CK SG GC Family. Graphics applications are standalone applications which demonstrate of some of the capabilities of MPLAB® Harmony Graphics Suite.  Refer to the following links for release notes, home page, training materials, framework and application help.
+For more information on the tools, libraries and basic development with the MPLAB® Harmony Graphics Suite, please see the gfx repo also on github.
+ - [Release Notes](./release_notes.md)
+ - [MPLAB® Harmony License](./mplab_harmony_license.md)
+ - [MPLAB® Harmony 3 Graphics User Guides Wiki](https://github.com/mchpgfx/legato.docs/wiki)
+ - [MPLAB® Harmony 3 Graphics API Help](https://mchpgfx.github.io/legato.docs/html/index.html)
+ - [MPLAB® Harmony 3 Graphics Videos](https://www.youtube.com/playlist?list=PL9B4edd-p2ag5xsIIHhja-caKYY7AKPxe)
+ - [MPLAB® Harmony 3 Graphics Suite Documentation](https://microchip-mplab-harmony.github.io/gfx/documentation.html)
 
 # Contents Summary
 
-| Folder     | Description                                               |
-| ---        | ---                                                       |
-| apps        | Example applications for replaceme library components      |
-| config     | replaceme module configuration file                        |
-| docs       | replaceme library help documentation                       |
-| drivers    | Driver/Firmware files for different products              |
+| Folder     | Description                                  |
+|------------|----------------------------------------------|
+| apps       | Example Graphics applications |
+| docs       | Contains files supporting documentation |
 
+
+Documentation is available for offline viewing.  It can be used only after cloning this repository onto a local machine. For online viewing, please use [github pages](https://microchip-mplab-harmony.github.io/gfx_apps_pic32cz_ca) of this repository.
+
+## Graphics application examples
+
+The following applications are provided to demonstrate a subset of the capabilities of Harmony Graphics Suite.
+
+| Category | Item | Description | Release Type |
+| --- | --- | ---- |---- |
+|  apps | [blank_quickstart](./apps/blank_quickstart/readme.md) | Legato Blank Quickstart Examples | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|  apps | [legato_adventure](./apps/legato_adventure/readme.md) | Legato Graphics Library Quickstart Examples | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|  apps | [legato_benchmark](./apps/legato_benchmark/readme.md) | Legato Graphics Library Quickstart Examples | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|  apps | [legato_ext_res](./apps/legato_ext_res/readme.md) | Legato Graphics Library External Resources Examples | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+|  apps | [legato_quickstart](./apps/legato_quickstart/readme.md) | Legato Graphics Library Quickstart Examples | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
 ____
 
-[![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/replaceme/blob/master/mplab_harmony_license.md)
-[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/replaceme.svg)](https://github.com/Microchip-MPLAB-Harmony/replaceme/releases/latest)
-[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/replaceme.svg)](https://github.com/Microchip-MPLAB-Harmony/replaceme/releases/latest)
-[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/replaceme.svg)](https://github.com/Microchip-MPLAB-Harmony/replaceme/graphs/commit-activity)
-[![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/replaceme.svg)]()
+[![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/gfx_apps_pic32cz_ca/blob/master/mplab_harmony_license.md)
 
 ____
 
@@ -43,7 +57,6 @@ ____
 [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/)
 [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech)
 
-[![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/replaceme.svg?style=social)]()
-[![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/replaceme.svg?style=social)]()
-
+[![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/gfx.svg?style=social)]()
+[![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/gfx.svg?style=social)]()
 

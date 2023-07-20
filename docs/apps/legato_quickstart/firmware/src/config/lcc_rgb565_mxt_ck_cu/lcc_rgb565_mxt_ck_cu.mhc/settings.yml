@@ -1,0 +1,14 @@
+format_version: v1.0
+configName: lcc_rgb565_mxt_ck_cu
+folderName: legato_qs_ck_cu_wqvga
+frameworkPath: C:\harmony3_dev
+processor: PIC32CK0512GC00064
+projectName: legato_qs_ck_cu_wqvga
+settings:
+  PackageFilter: ''
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: 

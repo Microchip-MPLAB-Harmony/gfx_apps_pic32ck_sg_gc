@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Module name="PIC32CM LE LS Family Graphics Applications Package" id="171F4C18-DBEB-4556-AE1B-4E72DDAD4EAD" version="3.0.0" type="gfx_apps_pic32ck_sg_gc">
+    <ArchRoot path="arch"/>
+</Module>
